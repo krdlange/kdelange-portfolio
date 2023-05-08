@@ -4,9 +4,9 @@
       <img src="logo.png" alt="Logo">
     </div>
     <ul>
-      <li><a href="#">Link 1</a></li>
-      <li><a href="#">Link 2</a></li>
-      <li><a href="#">Link 3</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Component</a></li>
     </ul>
   </nav>
 </template>
