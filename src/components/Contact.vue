@@ -1,15 +1,18 @@
 <template>
-    <section class="contact-container">
+    <section id="contact">
         <div class="contact-image">
-            <h3>Project 1</h3>
+            <h3>Get in touch!</h3>
         </div>
         <div class="contact-links">
             <a href="">
-                <h3>
-                Get in touch!
-                </h3>
+                <button>
+                    Email
+                </button>
+            </a><a href="">
+                <button>
+                    LinkedIn
+                </button>
             </a>
-
         </div>
     </section>
 </template>
