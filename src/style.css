@@ -89,10 +89,8 @@ button:focus-visible {
 } */
 
 :root {
-  font-family: Inter;
-  line-height: 1.5;
-  font-weight: 400;
-
+  font-family: 'Inter', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -106,7 +104,33 @@ body {
   background-position: center center;
   background-size: cover;
   height: 100vh;
-  margin: 0;
+  margin: 80px;
+  /* padding: 80px; */
 }
 
+  /* Set height of intro section to 100vh */
+  #intro {
+    height: 100vh;
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+  }
+  
+  /* Set height of projects section to 100vh */
+  #projects {
+    height: 100vh;
+  }
+  
+  /* Set height of contact section to 100vh */
+  #contact {
+    height: 100vh;
+  }
 
+  h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #3C3C3C;
+  }
