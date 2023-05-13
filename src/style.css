@@ -93,8 +93,8 @@ html {
 }
 
 :root {
-  font-family: 'Inter', sans-serif;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -103,125 +103,73 @@ html {
 }
 
 body {
-  background-image: url("src/assets/bg-img.jpg");
-  background-repeat: no-repeat;
+  /* background-image: url("src/assets/bg-img.jpg");
+  background-repeat: repeat;
   background-position: center center;
+  background-size: cover; */
+  background-image: linear-gradient(
+    45deg,
+    hsl(68deg 36% 80%) 1%,
+    hsl(29deg 99% 96%) 100%,
+    rgb(236, 216, 182) 88%,
+    hsl(50deg 54% 80%) 95%,
+    hsl(22deg 44% 83%) 100%
+  );
   background-size: cover;
+  background-position: center;
+  /* height: 100vh; */
+  margin: 40px;
+}
+
+/* Set height of intro section to 100vh */
+#intro {
   height: 100vh;
-  margin: 80px;
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
 }
 
-  /* Set height of intro section to 100vh */
-  #intro {
-    height: 100vh;
-    max-width: 900px;
-    width: 100%;
-    margin: auto;
-  }
-  
-  /* Set height of projects section to 100vh */
-  #projects {
-    height: 100vh;
-  }
-  
-  /* Set height of contact section to 100vh */
-  #contact {
-    height: 100vh;
-  }
-
-  h1 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 0.875rem;
-    line-height: 17px;
-    color: #3C3C3C;
-  }
-
-  h2 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 1.875rem;
-    line-height: 19px;
-    color: #3C3C3C;
-  }
-
-  p {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 0.75rem;
-    line-height: 19px;
-    /* letter-spacing: 0.04rem; */
-    color: #3C3C3C;
-  }
-  
-  nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 80px;
-  background-color: rgba(255, 255, 255, 0);
+/* Set height of projects section to 100vh */
+#projects {
+  height: 100vh;
 }
 
-
-.left-items {
-  display: flex;
-  align-items: center;
+/* Set height of contact section to 100vh */
+#contact {
+  height: 100vh;
 }
 
-
-.brand-img img {
-  max-width: 100%;
-  height: auto;
-  max-height: 50px;
-  margin-right: 20px;
+h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 17px;
+  color: #3c3c3c;
 }
 
-.right-items {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: rgba(255, 255, 255, 0);
-
+h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.875rem;
+  line-height: 19px;
+  color: #3c3c3c;
 }
 
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
+h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 29px;
 }
 
-nav li {
-  margin-right: 20px;
-}
-
-nav a {
-  color: #333;
-  text-decoration: none;
+p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
   font-size: 0.75rem;
-  font-weight: bold;
-}
-
-nav a:hover {
-  color: #ff5500;
-}
-
-ul {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  margin: 0 10px;
-}
-
-a {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
+  line-height: 19px;
+  color: #3c3c3c;
 }
