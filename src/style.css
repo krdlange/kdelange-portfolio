@@ -118,13 +118,13 @@ body {
   background-size: cover;
   background-position: center;
   /* height: 100vh; */
-  margin: 40px;
+  margin: 0;
 }
 
 /* Set height of intro section to 100vh */
 #intro {
   height: 100vh;
-  max-width: 900px;
+  /* max-width: 900px; */
   width: 100%;
   margin: auto;
 }
@@ -132,17 +132,23 @@ body {
 /* Set height of projects section to 100vh */
 #projects {
   height: 100vh;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
 }
 
 /* Set height of contact section to 100vh */
 #contact {
   height: 100vh;
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
 }
 
 h1 {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 0.875rem;
   line-height: 17px;
   color: #3c3c3c;
@@ -161,7 +167,15 @@ h3 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 1rem;
+  line-height: 29px;
+}
+
+h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.875rem;
   line-height: 29px;
 }
 
