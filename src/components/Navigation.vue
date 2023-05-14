@@ -12,9 +12,9 @@
 
       <div class="right-items">
         <ul v-bind:class="{ 'menu': true, 'active': showMenu }">
-          <li><a href="#"><h4>About</h4></a></li>
-          <li><a href="#"><h4>Projects</h4></a></li>
-          <li><a href="#"><h4>Contact</h4></a></li>
+          <li><h4><a href="#">About</a></h4></li>
+          <li><h4><a href="#">Projects</a></h4></li>
+          <li><h4><a href="#">Contact</a></h4></li>
         </ul>
         <div class="hamburger" v-on:click="showMenu = !showMenu" v-bind:class="{ 'close': showMenu }">
           <span></span>
@@ -53,11 +53,10 @@ export default {
 
 .menu a {
   color: #000;
-  font-size: 1.2rem;
   text-decoration: none;
   color: #000;
-  border-bottom: 2px solid #000;
-  padding-bottom: 2px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 1px;
 }
 
 .brand-items {
