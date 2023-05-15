@@ -12,20 +12,20 @@
                         fill="black" />
                 </svg>
             </div>
-           <div class="contact-buttons">
-            <a href="">
-                <button>
-                    Email
-                </button>
-            </a><a href="">
-                <button>
-                    LinkedIn
-                </button>
-            </a>
-        </div> 
+            <div class="contact-buttons">
+                <a href="">
+                    <button>
+                        Email
+                    </button>
+                </a><a href="">
+                    <button>
+                        LinkedIn
+                    </button>
+                </a>
+            </div>
         </div>
 
-        
+
     </section>
 </template>
 
@@ -36,11 +36,18 @@ export default {
 </script>
 
 <style>
+.contact-container {
+    min-height: 100vh;
+    height: 100vh;
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+}
 
 .svg-contact {
     display: flex;
     justify-content: center;
-    width: 400px;
+    /* width: 330px; */
     height: 480px;
     margin-top: -100px;
 }
@@ -53,6 +60,8 @@ export default {
 .contact-buttons button {
     margin-right: 8px;
 }
+
+
 @media only screen and (min-width: 780px) {
     .contact-container {
         margin: 0 auto;
@@ -66,7 +75,7 @@ export default {
     }
 
     .svg-contact {
-        width:581px;
+        width: 581px;
         display: flex;
         align-self: center;
         width: 70%;
@@ -83,4 +92,5 @@ export default {
         margin-bottom: 8px;
         width: 120px;
     }
-}</style>
+}
+</style>

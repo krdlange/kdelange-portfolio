@@ -54,8 +54,14 @@ export default {
 .menu a {
   color: #000;
   text-decoration: none;
-  color: #000;
   border-bottom: 1px solid #000;
+  padding-bottom: 1px;
+}
+
+.menu a:hover {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 2px solid #000;
   padding-bottom: 1px;
 }
 
@@ -125,9 +131,9 @@ export default {
     left: 0;
     height: 100vh;
     width: 100%;
-    background-color: rgba(241, 223, 196, 0);
+    background-color: rgb(255, 240, 222, 0.28);
     padding: 20px;
-    backdrop-filter: blur(20px); 
+    backdrop-filter: blur(30px); 
   }
 
   .hamburger {
