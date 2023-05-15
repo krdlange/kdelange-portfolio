@@ -1,6 +1,6 @@
 <template>
     <h2>Projects</h2>
-    <section class="projects-container">
+    <section id="projects" class="projects-container">
 
         <div class="arcadia-folder">
             <div class="svg-container">
@@ -55,9 +55,13 @@ export default {
 </script>
 
 <style>
-/* .projects-container {
-    margin-top: 30px;
-} */
+.projects-container {
+    min-height: 100vh;
+    height: 100vh;
+  max-width: 500px;
+  width: 100%;
+  margin: auto; 
+}
 
 .arcadia-folder {
     display: flex;

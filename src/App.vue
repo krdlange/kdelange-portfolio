@@ -29,8 +29,9 @@ export default {
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Plus+Jakarta+Sans:wght@500;700&display=swap');
+
 .page-wrapper {
-  margin: 40px;
+  margin: 40px 24px;
 }
 
 @media only screen and (min-width: 768px) {
