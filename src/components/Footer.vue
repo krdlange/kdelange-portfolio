@@ -14,9 +14,9 @@ export default {
 
 <style>
 .footer-container {
-    margin: 32px auto;
+    margin: 0 auto;
     text-align: center;
-    padding: 16px;
+    padding: 0 16px;
 }
 
 footer hr {
