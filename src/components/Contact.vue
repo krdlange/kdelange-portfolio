@@ -1,6 +1,7 @@
 <template>
-    <h2>Contact</h2>
+    
     <section class="contact-container">
+        <h2>Contact</h2>
         <div class="contact-content">
             <div class="svg-contact">
                 <svg height="583" viewBox="0 0 581 583" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -37,19 +38,25 @@ export default {
 
 <style>
 .contact-container {
-    min-height: 100vh;
+    /* display: flex;
     height: 100vh;
-    max-width: 900px;
+    flex-direction: column;
+    align-self: center; */
+    /* max-width: 900px;
     width: 100%;
-    margin: auto;
+    margin: auto; */
+    height: 100vh;
+    margin: 0 auto;
 }
 
 .svg-contact {
+    /* display: flex;
+    justify-content: center;
+    height: 480px;
+    margin-top: -100px; */
     display: flex;
     justify-content: center;
-    /* width: 330px; */
-    height: 480px;
-    margin-top: -100px;
+    margin-bottom: 16px;
 }
 
 .contact-buttons {
@@ -63,10 +70,10 @@ export default {
 
 
 @media only screen and (min-width: 780px) {
-    .contact-container {
+    /* .contact-container {
         margin: 0 auto;
 
-    }
+    } */
 
     .contact-content {
         display: flex;
@@ -75,7 +82,7 @@ export default {
     }
 
     .svg-contact {
-        width: 581px;
+        width: 580px;
         display: flex;
         align-self: center;
         width: 70%;

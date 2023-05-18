@@ -1,5 +1,5 @@
 <template>
-  <nav>
+  <nav class="nav-container">
     <div class="brand-items">
       <div class="left-items">
         <div class="brand-img">
@@ -37,8 +37,36 @@ export default {
 </script>
 
 <style>
-/* Default styles for the menu */
+.nav-container {
+  width: 100%;
+  height: 44px;
+  margin-bottom: 10px;
+}
 
+.brand-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-items {
+  display: flex;
+  align-items: center;
+}
+
+.brand-img img {
+  max-width: 100%;
+  height: auto;
+  max-height: 50px;
+  margin-right: 20px;
+}
+
+.right-items {
+  display: flex;
+  align-items: center;
+}
+
+/* Default styles for the menu */
 .menu {
   display: flex;
   justify-content: center;
@@ -63,29 +91,6 @@ export default {
   text-decoration: none;
   border-bottom: 2px solid #000;
   padding-bottom: 1px;
-}
-
-.brand-items {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.left-items {
-  display: flex;
-  align-items: center;
-}
-
-.brand-img img {
-  max-width: 100%;
-  height: auto;
-  max-height: 50px;
-  margin-right: 20px;
-}
-
-.right-items {
-  display: flex;
-  align-items: center;
 }
 
 /* Styles for the hamburger menu */
