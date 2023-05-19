@@ -1,7 +1,7 @@
-<template>
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="projects-container">
+<template>        
+    <section class="projects-container" id="projects">
+        <div class="section-title"><h2>Projects</h2></div>
+        <div class="folder-container">
             <div class="arcadia-folder">
                 <div class="svg-container">
                     <svg class="svg-arcadia" height="287" viewBox="0 0 409 287" fill="none"
@@ -63,22 +63,34 @@
     </section>
 </template>
 
+
 <script>
 export default {
     name: 'Projects'
 }
+
 </script>
 
 <style>
 .projects-container {
     height: 100vh;
-    margin: 60px auto;
+    padding: 20px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    /* margin: 60px auto; */
+}
+
+.section-title {
+    margin-bottom: 80px;
 }
 
 .arcadia-folder {
     display: flex;
     justify-content: center;
     margin-bottom: 16px;
+    /* background-image: url('src/assets/folder.png') ; */
+
 }
 
 .rh-folder {
@@ -135,11 +147,17 @@ a .text-link {
 
 /* if screen is greater than 768 */
 @media only screen and (min-width: 780px) {
-    .projects-container {
+    .folder-container {
         display: flex;
         justify-content: space-around;
-        align-self: baseline;
-        margin-top: 130px;
+        /* align-items: center; */
+        /* margin-top: 130px; */
+        margin: 0 auto;
+    width: 840px;
     }
+
+    .section-title {
+    margin-bottom: 200px;
+}
 }
 </style>

@@ -190,6 +190,21 @@
 </template>
 
 <script>
+import { gsap } from 'gsap'
+
+// Wait for the document to load
+document.addEventListener("DOMContentLoaded", () => {
+  // Select the contact container element
+  const introContainer = document.querySelector(".intro-container");
+
+  // Animate the contact container
+  gsap.from(introContainer, {
+    opacity: 0,
+    y: 50,
+    duration: 1,
+    ease: "power2.out",
+  });
+});
 </script>
 
 <style>
@@ -254,8 +269,8 @@
         flex-direction: row-reverse;
         justify-content: space-between;
         align-items: center;
-        padding: 30px;
-        margin-top: 130px;
+        padding: 80px;
+        margin-top: 60px;
 
     }
 
