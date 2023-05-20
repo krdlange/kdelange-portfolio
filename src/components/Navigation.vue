@@ -12,9 +12,15 @@
 
       <div class="right-items">
         <ul v-bind:class="{ 'menu': true, 'active': showMenu }">
-          <li><h4><a href="#">About</a></h4></li>
-          <li><h4><a href="#">Projects</a></h4></li>
-          <li><h4><a href="#">Contact</a></h4></li>
+          <li>
+            <h4><a href="#">About</a></h4>
+          </li>
+          <li>
+            <h4><a href="#">Projects</a></h4>
+          </li>
+          <li>
+            <h4><a href="#">Contact</a></h4>
+          </li>
         </ul>
         <div class="hamburger" v-on:click="showMenu = !showMenu" v-bind:class="{ 'close': showMenu }">
           <span></span>
@@ -39,8 +45,7 @@ export default {
 <style>
 .nav-container {
   width: 100%;
-  height: 44px;
-  margin-bottom: 10px;
+  margin: 20px auto;
 }
 
 .brand-items {
@@ -138,11 +143,11 @@ export default {
     width: 100%;
     background-color: rgb(255, 240, 222, 0.28);
     padding: 20px;
-    backdrop-filter: blur(30px); 
+    backdrop-filter: blur(30px);
+    z-index: 1000;
   }
 
   .hamburger {
     display: block;
   }
-}
-</style>
+}</style>
