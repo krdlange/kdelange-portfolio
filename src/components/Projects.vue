@@ -1,18 +1,10 @@
-<template>        
+<template>
     <section class="projects-container" id="projects">
-        <div class="section-title"><h2>Projects</h2></div>
+        <div class="section-title">
+            <h2>Projects</h2>
+        </div>
         <div class="folder-container">
             <div class="arcadia-folder">
-                <div class="svg-container">
-                    <svg class="svg-arcadia" height="287" viewBox="0 0 409 287" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M401 286.5H8.00001C3.85787 286.5 0.5 283.142 0.5 279V8.00001C0.5 3.85787 3.85787 0.5 8 0.5H160.5C164.642 0.5 168 3.85786 168 8V45.8125C168 50.5069 171.806 54.3125 176.5 54.3125H401C405.142 54.3125 408.5 57.6704 408.5 61.8125V279C408.5 283.142 405.142 286.5 401 286.5Z"
-                            fill="#F0F1EB" stroke="black" />
-                    </svg>
-                </div>
-
-
                 <div class="arcadia-content">
                     <div class="project-name">
                         <h3><sup>01</sup>Arcadia</h3>
@@ -34,18 +26,9 @@
             </div>
 
             <div class="rh-folder">
-                <div class="svg-container">
-                    <svg class="svg-rh" height="287" viewBox="0 0 409 287" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M401 286.5H8.00001C3.85787 286.5 0.5 283.142 0.5 279V8.00001C0.5 3.85787 3.85787 0.5 8 0.5H203.5C207.642 0.5 211 3.85786 211 8V45.8125C211 50.5069 214.806 54.3125 219.5 54.3125H401C405.142 54.3125 408.5 57.6704 408.5 61.8125V279C408.5 283.142 405.142 286.5 401 286.5Z"
-                            fill="#F0F1EB" stroke="black" />
-                    </svg>
-                </div>
-
-
                 <div class="rh-content">
                     <div class="project-name">
-                        <h3 class=""><sup>02</sup>Recipe Haul</h3>
+                        <h3><sup>02</sup>Recipe Haul</h3>
                     </div>
                     <div class="project-description">
                         <p>An e-commerce web application that integrates recipe search with grocery shopping.</p>
@@ -73,54 +56,54 @@ export default {
 
 <style>
 .projects-container {
-    height: 100vh;
-    padding: 20px;
-    /* display: flex;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
     flex-direction: column;
-    justify-content: center; */
-    /* margin: 60px auto; */
+    justify-content: space-around;
 }
 
-.section-title {
-    margin-bottom: 80px;
+.folder-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .arcadia-folder {
+    background-image: url(src/assets/folder-1.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain;
     display: flex;
-    justify-content: center;
-    margin-bottom: 16px;
-    /* background-image: url('src/assets/folder.png') ; */
-
-}
-
-.rh-folder {
-    display: flex;
-    justify-content: center;
+    max-width: 400px;
+    height: 300px;
+    margin-right: 16px;
 }
 
 .arcadia-content {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    width: 350px;
-    margin-top: 20px;
+    margin: 0 20px;
+    justify-content: space-between;
+}
+
+.rh-folder {
+    background-image: url(src/assets/folder-2.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    max-width: 400px;
+    height: 287px;
 }
 
 .rh-content {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    width: 350px;
-    margin-top: 20px;
-}
-
-.project-name h3 {
-    margin: 2px;
-}
-
-.project-description {
-    margin-top: 30px;
-    margin-bottom: 50px;
+    margin: -2px 20px;
+    justify-content: space-between;
 }
 
 sup {
@@ -133,6 +116,8 @@ sup {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 80px;
 }
 
 a .text-link {
@@ -146,18 +131,18 @@ a .text-link {
 }
 
 /* if screen is greater than 768 */
-@media only screen and (min-width: 780px) {
+@media only screen and (min-width: 820px) {
     .folder-container {
         display: flex;
-        justify-content: space-around;
-        /* align-items: center; */
-        /* margin-top: 130px; */
-        margin: 0 auto;
-    width: 840px;
+        flex-direction: row;
+        align-items: baseline;
+        width: 100%;
+        height: 550px;
+        margin: auto;
     }
 
-    .section-title {
-    margin-bottom: 200px;
-}
+    .project-bottom {
+        padding-bottom: 24px;
+    }
 }
 </style>

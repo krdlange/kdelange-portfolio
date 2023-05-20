@@ -1,9 +1,9 @@
 <template>
   <div class="page-wrapper"> 
-    <Navigation></Navigation>
-    <About></About>
-    <Projects></Projects>
-    <Contact></Contact>
+    <Navigation class="page-element"></Navigation>
+    <About class="page-element"></About>
+    <Projects class="page-element"></Projects>
+    <Contact class="page-element"></Contact>
     <Footer></Footer>
   </div>
 </template>
@@ -32,6 +32,9 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Plus+Jakarta+Sans:wght@500;700&display=swap');
 
+.page-element {
+  margin-bottom: 80px;
+}
 .page-wrapper {
   margin: 40px 24px;
 }
@@ -40,7 +43,8 @@ export default {
     .page-wrapper {
         max-width: 1000px;
         width: 100%;
-        margin: 40px auto;
+        margin: 0 auto;
+        padding: 24px;
     }
 }
 </style>
