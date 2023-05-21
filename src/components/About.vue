@@ -2,7 +2,7 @@
     <section id="intro" class="intro-container">
         <div class="intro-content">
             <div class="img-container">
-                <img src="src/assets/profile-img-min.jpeg" alt="profile-img" class="my-image">
+                <img src="src/assets/profile-img-min.jpg" alt="profile-img" class="my-image">
             </div>
             <div class="intro-text">
                 <h2>Mabuhay! 🇵🇭</h2>
