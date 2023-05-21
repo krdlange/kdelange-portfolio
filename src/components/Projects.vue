@@ -100,7 +100,7 @@ export default {
 }
 
 .arcadia-folder {
-    background-image: url(src/assets/folder-1.png);
+    background-image: url(/public/assets/folder-1.png);
     background-position: top left;
     background-repeat: no-repeat;
     background-size: contain;
@@ -117,7 +117,7 @@ export default {
 }
 
 .rh-folder {
-    background-image: url(src/assets/folder-2.png);
+    background-image: url(/public/assets/folder-2.png);
     background-position: top left;
     background-repeat: no-repeat;
     background-size: contain;
