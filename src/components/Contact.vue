@@ -91,7 +91,7 @@ textarea {
     font-size: 16px;
     margin-bottom: 4px;
     background-color: #F0F1EB;
-    color: #fff;
+    color: #333;
 }
 
 textarea {
