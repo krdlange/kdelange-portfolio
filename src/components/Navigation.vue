@@ -3,7 +3,7 @@
     <div class="brand-items">
       <div class="left-items">
         <div class="brand-img">
-          <img src="src/assets/logotransparent.png" alt="Logo">
+          <img src="/public/assets/logotransparent.png" alt="Logo">
         </div>
         <div class="brand-title">
           <h1>Kriska de Lange</h1>
