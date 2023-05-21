@@ -36,7 +36,7 @@ export default {
   margin-bottom: 80px;
 }
 .page-wrapper {
-  margin: 40px 24px;
+  margin: 40px 16px;
 }
 
 @media only screen and (min-width: 768px) {
