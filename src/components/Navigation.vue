@@ -16,10 +16,10 @@
             <h4><a href="#">About</a></h4>
           </li>
           <li>
-            <h4><a href="#">Projects</a></h4>
+            <h4><a href="#projects">Projects</a></h4>
           </li>
           <li>
-            <h4><a href="#">Contact</a></h4>
+            <h4><a href="#contact">Contact</a></h4>
           </li>
         </ul>
         <div class="hamburger" v-on:click="showMenu = !showMenu" v-bind:class="{ 'close': showMenu }">

@@ -2,7 +2,7 @@
     <section id="intro" class="intro-container">
         <div class="intro-content">
             <div class="img-container">
-                <img src="src/assets/profile-img.jpeg" alt="profile-img" class="my-image">
+                <img src="src/assets/profile-img-min.jpeg" alt="profile-img" class="my-image">
             </div>
             <div class="intro-text">
                 <h2>Mabuhay! 🇵🇭</h2>
@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
     gsap.from(introContainer, {
         opacity: 0,
         y: 50,
-        duration: 1,
+        duration: 2,
         ease: "power2.out",
     });
 });
@@ -70,7 +70,6 @@ document.addEventListener("DOMContentLoaded", () => {
 }
 
 .intro-content {
-    /* margin: 26px 8px; */
     padding: 8px;
 }
 

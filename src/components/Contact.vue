@@ -1,5 +1,5 @@
 <template>
-    <section class="contact-container">
+    <section id="contact" class="contact-container">
         <div class="contact-title">
             <h2>Contact</h2>
         </div>
@@ -9,7 +9,6 @@
             </div>
             <div class="contact-form">
                 <div class="form-container">
-                    <h2>Send an email</h2>
                     <form target="_blank" action="https://formsubmit.co/kriska.delange@gmail.com" method="POST">
                         <div class="form-group">
 
@@ -26,7 +25,7 @@
 
                         </div>
                         <div class="form-btn-container">
-                            <button type="submit" class="primary-button">Submit Form</button>
+                            <button type="submit" class="primary-button">Submit</button>
                         </div>
 
                     </form>
@@ -48,22 +47,33 @@ export default {
 
 <style>
 .contact-container {
-    height: 100vh;
-    margin: 0 auto;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .contact-content {
-    margin: 80px 30px 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .img-content {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     margin-bottom: 16px;
 }
 
 .img-contact {
-    width: 340px;
+    width: 280px;
+}
+
+.contact-form {
+    width: 90%;
 }
 
 .form-container h2 {
@@ -72,45 +82,46 @@ export default {
     text-align: left;
 }
 
-.form-control {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-    margin-bottom: 4px;
-}
-
+.form-control,
 textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #333;
     border-radius: 4px;
     font-size: 16px;
+    margin-bottom: 4px;
+    background-color: #F0F1EB;
+    color: #fff;
+}
+
+textarea {
     resize: vertical;
 }
 
-
-
 @media only screen and (min-width: 780px) {
     .contact-container {
+        width: 100%;
         display: flex;
         flex-direction: column;
-        width: 100%;
+        justify-content: center;
     }
 
     .contact-form {
-        width: 30%;
+        width: 100%;
         display: flex;
         align-items: center;
+        justify-content: center;
+    }
 
+    .form-container {
+        width: 60%;
     }
 
     .contact-content {
         display: flex;
         flex-direction: row;
         width: 100%;
-        height: 100vh;
+        height: 600px;
     }
 
     .img-content {
@@ -119,6 +130,8 @@ textarea {
         width: 60%;
     }
 
-
+    .img-contact {
+        width: 340px;
+    }
 }
 </style>
