@@ -3,7 +3,7 @@
     <div class="brand-items">
       <div class="left-items">
         <div class="brand-img">
-          <img src="/public/assets/logotransparent.png" alt="Logo">
+          <img src="/assets/logotransparent.png" alt="Logo">
         </div>
         <div class="brand-title">
           <h1>Kriska de Lange</h1>
@@ -141,9 +141,9 @@ export default {
     left: 0;
     height: 100vh;
     width: 100%;
-    background-color: rgb(255, 240, 222, 0.28);
+    background-color: rgba(250, 242, 227, 0.8);
     padding: 20px;
-    backdrop-filter: blur(30px);
+    backdrop-filter: blur(50px);
     z-index: 1000;
   }
 
