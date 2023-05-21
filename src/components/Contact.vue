@@ -5,7 +5,7 @@
         </div>
         <div class="contact-content">
             <div class="img-content">
-                <img class="img-contact" src="/public//assets/getintouch.png">
+                <img class="img-contact" src="/assets/getintouch.png">
             </div>
             <div class="contact-form">
                 <div class="form-container">
