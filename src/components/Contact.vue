@@ -76,19 +76,13 @@ export default {
     width: 90%;
 }
 
-.form-container h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    text-align: left;
-}
-
 .form-control,
 textarea {
+    font-family: Inter;
     width: 100%;
     padding: 10px;
     border: 1px solid #333;
     border-radius: 4px;
-    font-size: 16px;
     margin-bottom: 4px;
     background-color: #F0F1EB;
     color: #333;

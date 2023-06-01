@@ -19,8 +19,13 @@
             <h4><a href="#projects">Projects</a></h4>
           </li>
           <li>
+            <h4><a href="https://drive.google.com/file/d/1WCBpxCFxjp-pgVqnz8uar7NLLM3WHzuc/view?usp=share_link"
+              target="_blank" rel="noreferrer">Resume</a></h4>
+          </li>
+          <li>
             <h4><a href="#contact">Contact</a></h4>
           </li>
+          
         </ul>
         <div class="hamburger" v-on:click="showMenu = !showMenu" v-bind:class="{ 'close': showMenu }">
           <span></span>
@@ -85,16 +90,16 @@ export default {
 }
 
 .menu a {
-  color: #000;
+  color: #333;
   text-decoration: none;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #333;
   padding-bottom: 1px;
 }
 
 .menu a:hover {
-  color: #000;
+  color: #333;
   text-decoration: none;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid #333;
   padding-bottom: 1px;
 }
 
@@ -109,7 +114,7 @@ export default {
   width: 30px;
   height: 2px;
   margin-bottom: 5px;
-  background-color: #000;
+  background-color: #333;
 }
 
 .hamburger.close span:nth-child(1) {
@@ -150,4 +155,5 @@ export default {
   .hamburger {
     display: block;
   }
-}</style>
+}
+</style>
