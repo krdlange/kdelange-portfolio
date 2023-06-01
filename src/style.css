@@ -22,9 +22,8 @@ body {
     hsl(50deg 54% 80%) 95%,
     hsl(22deg 44% 83%) 100%
   );
-  /* background-color: #ffffff; */
-  /* background-size: cover;
-  background-position: center; */
+  background-size: cover;
+  background-position: center;
   margin: 0;
 }
 
