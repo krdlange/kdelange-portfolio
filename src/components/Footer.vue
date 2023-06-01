@@ -22,7 +22,7 @@ export default {
 
 footer hr {
     border: none;
-    border-top: 1px solid #1D1D1D;
+    border-top: 1px solid #333;
     margin: 8px 0;
 }
 

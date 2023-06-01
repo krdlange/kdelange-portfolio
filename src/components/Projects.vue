@@ -152,7 +152,7 @@ a .text-link {
     border: none;
     padding: 0;
     font-size: 0.875rem;
-    color: #000;
+    color: #333;
     text-decoration: underline;
     cursor: pointer;
 }
